@@ -1,10 +1,10 @@
-100DaysofCode
+#100DaysofCode
 
 100DaysofCode JavaScript
 
-Challenge
+##Challenge
 
-Week1:
+###Week1:
 
 Day1: document.write Function
 
