@@ -28,5 +28,5 @@ console.log(voteable);
 
 var country, nationality;
 country = ["Togo", "Nigeria", "Cameroon", "England"];
-nationality = (country == country[2])? "Cameroon" : "Nigerian";
+nationality = (country == "Cameroon")? "Togo" : "Cameroon";
 console.log(nationality);
