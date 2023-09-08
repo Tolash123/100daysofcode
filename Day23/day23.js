@@ -4,7 +4,6 @@ HowToLabel: while (i<3){
     i++;
 }
 
-console.log("\n")
 
 for(var i = 0; i < 1000; i++){
     console.log("Hello \n");
@@ -12,7 +11,6 @@ for(var i = 0; i < 1000; i++){
     break;
 }
 
-console.log("\n")
 
 var x = 0;
 var z = 0;

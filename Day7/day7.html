@@ -7,6 +7,11 @@
 </head>
 <body>
     <script>
+//print date and time
+    var today = new Date();
+    document.write(today + "<br>");
+
+// check for the current day of the week using switch()
     var day;
     switch (new Date().getDay()){
         case 0: day = "sunday";
@@ -24,7 +29,25 @@
         case 6: day = "saturday";
 
     }
-    document.write("Today is " + day)
+    document.write("Today is " + day + "<br>");
+
+//To generate the current month
+    var month;
+    switch(new Date().getMonth()){
+        case 0: month="January"; break;
+        case 1: month="february"; break;
+        case 2: month="march"; break;
+        case 3: month="april"; break;
+        case 4: month="may"; break;
+        case 5: month="june"; break;
+        case 6: month="July"; break;
+        case 7: month="august"; break;
+        case 8: month="september"; break;
+        case 9: month="october"; break;
+        case 10: month="november"; break;
+        case 11: month="december"; break;
+    }
+    document.write("Month is " + month);
     </script>
     </body>
 </html>

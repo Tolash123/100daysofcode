@@ -4,7 +4,7 @@ Jumps in Js
 
 *Jump statements*
 
-ump statements cause an unconditional jump to another statement elsewhere in the code. They are used primarily to interrupt switch statements and loops.
+jump statements cause an unconditional jump to another statement elsewhere in the code. They are used primarily to interrupt switch statements and loops.
 
 *Labeled statements
 
