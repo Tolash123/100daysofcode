@@ -12,4 +12,4 @@ Object has properties associated with it. The properties of an object define the
 
 OR:
 
-> objectName["propertyName]
+> objectName["propertyName"]

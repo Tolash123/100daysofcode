@@ -9,7 +9,7 @@ Using Getters and Setters and Inheritance.
     - NoofHours
     - NoofStudents
 assign values each time with different properties using set & get.
-  - create an function with the following properties:
+  - create a function with the following properties:
   - subject 
   - CoordinatorName
   - NoofHours

@@ -4,7 +4,7 @@ var person = {
     lastName: "Idris",
     age: 30,
     fullName: function () {
-        return this.firstName + " " + this.lastName;
+        return this.firstName + " " + this.lastName + " is " + this.age + " years old" ;
     }
 }
 console.log(person.fullName() + "\n");
@@ -24,15 +24,20 @@ var x = this;
 console.log(x + "\n");
 
 //4
-console.log(this === window);
+var user = {
+    name: 'Mummar',
+    nationality: 'Libyan',
+    education: 'B.sc',
+    position: 'CEO',
 
-a=37;
-console.log("\n" + window.a);
-this.b = "It is mine";
-console.log("\n" + window.b);
-console.log("\n" +b);
-console.log("\n")
+    Id: function(){
+        return this.name+ " |" + this.nationality +" |"+ this.position;
+    }
+};
 
+for(var i = 0; i<10; i++){
+    console.log(user.Id())
+}
 //5
 function myFunction(){
     return this;

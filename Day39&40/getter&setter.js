@@ -4,7 +4,7 @@ var teacher = {
     NoofHours: "60",
     noofstudents: "25",
     get getSubject(){
-        return this.subjects;
+        return this.subject;
     },
     set setSubject(value){
         this.subject = value;

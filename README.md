@@ -39,3 +39,27 @@
 - Day 24: Jump (continue)
 - Day 25&26: Weekend
 
+### Week 5:
+
+- Day 27 Jump (return)
+- Day 28 Jump (throw)
+- Day 29 try/catch/finally
+- Day 30 Object
+- Day 31 Object with method
+- Day 32&33 Weekend
+### Week 6:
+
+- Day 34 this Keyword
+- Day 35 Inheritance
+- Day 36 Deleting Properties
+- Day 37 Testing Properties
+- Day 38 Property Getters and Setters
+- Day 39&40 Weekend
+### Week 7:
+
+- Day 41 The prototype Attribute
+- Day 42 Adding Properties to Property
+- Day 43 Arrays
+- Day 44 Creating Arrays
+- Day 45 Reading and Accessing elements
+- Day 46&47 Weekend

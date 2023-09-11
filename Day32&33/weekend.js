@@ -4,7 +4,7 @@ try{
     if (y == 0){
         throw("Error: Divide by zero");
     }else{
-        console.log("Divede " + x +" / " + y  + "= "+ x/y);
+        console.log("Divide " + x +" / " + y  + "= "+ x/y);
     }
 }
 catch(err){
