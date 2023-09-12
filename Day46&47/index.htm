@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <th>
+        <td>Student Name</td>
+        <td>GPA</td>
+        </th>
+        <tr id="demo">
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <script>
+        //To be updated
+        var studentName = ['Ameer', 'Junaid', 'Rasheed', 'Talib', 'Idris'];
+        var GPA = [2.5, 4.6, 4.4, 4.5, 5.0]
+
+        for (var i = 0; i < studentName.length; i++) {
+            document.getElementById('demo').innerHTML = "<tr><td>" + studentName[i] + "</td>" + "<td>" + GPA[i] + "</td></tr>";
+        }
+    </script>
+</body>
+
+</html>
