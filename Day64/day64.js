@@ -9,32 +9,18 @@ var person1 = {
     firstName: 'John',
     lastName: 'Doe'
 }
-var person2 = {
-    firstName: 'Idris',
-    lastName: 'Muktar'
-}
-var person3 = {
-    firstName: 'Alade',
-    lastName: 'Tolani'
-}
-var person4 = {
-    firstName: 'Ayodeji',
-    lastName: 'Ayomikun'
-}
-console.log(person.fullName.call(person1) + '\n')
-console.log(person.fullName.call(person2) + '\n')
-console.log(person.fullName.call(person4) + '\n')
-console.log(person.fullName.call(person3) + '\n')
-
+console.log(person.fullName.call(person1) + '\n');
 // ex2
-var person = {
+var colleague = {
+    firstName: 'John',
+    lastName: 'Doe',
+}
+
+var person2 = {
     fullName: function(city, country){
-        return this.firsName + ' ' + this.lastName + ',' + city + ',' + country;
+        return this.firstName + ' ' + this.lastName + ',' + city + ',' + country;
     }
 }
 
-var person1 = {
-    firstName:"John",
-    lastName: "Doe"
-  }
-  console.log(person.fullName.call(person1, "Oslo", "Norway") + "<br>");
+
+  console.log(person2.fullName.call(colleague, "Oslo", "Norway"));
