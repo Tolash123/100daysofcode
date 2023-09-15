@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        var myWindow;
+        function openWin(){
+            myWindow = window.open('', 'myWindow', 'width=400, height=200');
+        }
+        function closeWin(){
+            if(myWindow){
+                myWindow.close();
+            }
+        }
+        function checkWin(){
+            if(!myWindow){
+                document.getElementById("msg").innerHTML = 'window has been opened';
+            }else{
+                if(myWindow.closed){
+                    document.getElementById("msg").innerHTML = "window has been closed!";
+                }else{
+                    document.getElementById('msg').innerHTML = "Window has not been closed!";
+                }
+            }
+        }
+    </script>
+    <button onclick="openWin()">open window</button>
+    <button onclick="closeWin()">close window</button>
+    <br><br>
+    <button onclick="checkWin()">Has window been closed?</button>
+    <br><br>
+    <div id="msg"></div>
+</body>
+</html>
