@@ -2,4 +2,4 @@
 
 Using Arrays
 
-+ Create Array to store students name and Array to store GPA of students 'double' then assign each student name with his GPA
++ Create Array to store workers' name and Array to store nationality of workers 'double' then assign each worker name with his nationality

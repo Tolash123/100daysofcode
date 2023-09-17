@@ -1,4 +1,4 @@
-var str = 'Hello world!'
+var str = 'Hello world'
 //charAt()
 
 var a = str.charAt(0);

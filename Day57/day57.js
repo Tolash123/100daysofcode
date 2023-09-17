@@ -20,3 +20,11 @@ function myFunction(item, index, arr) {
 
 }
 console.log(numbers + "\n")
+
+//3
+var colleagueId = [1, 2, 3, 4,5,6,7,8];
+colleagueId.forEach(myFunc)
+function myFunc(item, index, arr){
+    arr[index] = item *100 ;
+}
+console.log(colleagueId)

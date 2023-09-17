@@ -1,6 +1,7 @@
 // map
 var numbers = [4, 9, 16];
 var x = numbers.map(Math.sqrt);
+console.log(x)
 //filter
 a = [1,2,3,4,5];
 smallvalues = a.filter(function(x){

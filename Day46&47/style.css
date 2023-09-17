@@ -1,0 +1,12 @@
+table {
+    width: 40%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+th{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+}
