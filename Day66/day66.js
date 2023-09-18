@@ -25,3 +25,15 @@ var add = (function (){
         count += 1; return count
     }
 })();add();
+
+//-----------------
+
+var price = 3000;//global
+function myFunction(){
+        if(price == 3100){
+            console.log('new price is: ' + price)
+        }else
+        console.log('check back later. Thank You!')
+    
+}
+myFunction();

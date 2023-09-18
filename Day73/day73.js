@@ -9,4 +9,4 @@ do {
   window.onerror = function(msg, url) {
   alert("ERROR: " + msg + "\n" + url);
   }
-  docuemnet.write("Hello");
+  document.write("Hello, " + name);

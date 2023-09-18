@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Name: <input type="text" name="fname" value="Alade">
+    <p>Click the button to get the tag name</p>
+    <button onclick="myFunction()">Try it</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction() {
+            var x = document.getElementsByName("fname")[0].tagName;
+            document.getElementById("demo").innerHTML = x;
+        }
+    </script>
+</body>
+
+</html>
