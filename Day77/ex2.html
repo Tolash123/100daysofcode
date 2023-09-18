@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>click the button below</p>
+    <ul>
+        <li>coffee</li>
+        <li>Tea</li>
+    </ul>
+    <button onclick="myFunction()">Try it</button>
+    <script>
+        function myFunction(){
+            var d = document.createDocumentFragment();
+            d.appendChild(document.getElementsByTagName("li")[0]);
+            d.childNodes[0].childNodes[0].nodeValue = 'milk';
+            document.getElementsByTagName('ul')[0].appendChild(d);
+        }
+    </script>
+</body>
+</html>
