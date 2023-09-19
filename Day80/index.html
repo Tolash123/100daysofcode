@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myDiv{
+            height:250px;
+            width: 250px;
+            overflow: auto;
+        }
+        #content{
+            height: 800px;
+            width: 2000px;
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <p>scroll inside the div element to display the number</p>
+    <div id="myDiv" onscroll="myFunction()">
+        <div id="content">scroll inside me!</div>
+    </div>
+    <p id="demo"></p>
+    <script>
+        function myFunction(){
+            var element = document.getElementById('myDiv');
+            var x = element.scrollLeft;
+            var y = element.scrollTop;
+            document.getElementById('demo').innerHTML = 'Horizontally: ' + x + "px <br>vertically: " + y + "px"
+        }
+    </script>
+</body>
+</html>
