@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>DOM touchend Event</h1>
+    <p id="myP">Touch this paragraph</p>
+    <p><strong>Note:</strong>This ex is for touch device</p>
+    <p id="demo"></p>
+<script>
+    document.getElementById('myP').addEventListener('touchend', myFunction);
+    function myFunction(){
+        document.getElementById('demo').innerHTML = 'Hello world!'
+    }
+</script>
+    <body>
+
+</html>
