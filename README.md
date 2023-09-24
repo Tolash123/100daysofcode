@@ -55,6 +55,7 @@
 - Day 37 Testing Properties
 - Day 38 Property Getters and Setters
 - Day 39&40 Weekend
+
 ### Week 7:
 
 - Day 41 The prototype Attribute
@@ -63,3 +64,72 @@
 - Day 44 Creating Arrays
 - Day 45 Reading and Accessing elements
 - Day 46&47 Weekend
+### Week 8:
+
+- Day 48 Array Length
+- Day 49 Adding Array Elements
+- Day 50 Deleting Array Elements
+- Day 51 Iterating Arrays
+- Day 52 Multidimensional Array_
+- Day 53&54 Weekend
+
+### Week 9:
+
+- Day 55 Array Methods 1
+- Day 56 Array Methods 2
+- Day 57 Array Methods 3
+- Day 58 Array Methods 4
+- Day 59 Strings As Arrays
+- Day 60&61 Weekend
+
+### Week 10:
+
+- Day 62 Function
+- Day 63 Function
+- Day 64 call
+- Day 65 apply
+- Day 66 JavaScript Closures
+- Day 67&68 Weekend
+
+### Week 11:
+
+- Day 69 Client-Side JavaScript
+- Day 70 JavaScript in Web Documents
+- Day 71 Timers
+- Day 72 Opening and Closing Windows
+- Day 73 Dialog Boxes
+- Day 74&75 Weekend
+
+### Week 12:
+
+- Day 76 The Document Object Model (DOM)
+- Day 77 Creating Nodes
+- Day 78 Inserting Nodes
+- Day 79 Removing and Replacing Nodes
+- Day 80 scroll Property
+- Day 81&82 Weekend
+
+### Week 13:
+
+- Day 83 Events
+- Day 84 Onmouseover and Onmouseout Events
+- Day 85 Touchscreen and Mobile Events
+- Day 86 addEventListener
+- Day 87 Event Cancellation
+- Day 88&89 Weekend
+
+### Week 14:
+
+- Day 90 URL searchParams
+- Day 91 goBack and goForward
+- Day 92 Navigator
+- Day 93 Timing Events
+- Day 94 Cookies
+- Day 95&96 Weekend
+
+### Week 15:
+
+- Day 97 sessionStorage & localStorage
+- Day 98 Web Workers
+- Day 99 Server-Sent Events
+- Day 100 Geolocation
